@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(221, 220, 218);
+    font-family: "Nunito", sans-serif;
+}
+
+header {                       /* Cabeçalho e titulo da pagina */
+    padding: 16px 0;
+    background-color: rgb(244, 224, 8);
+    color: black;
+    box-shadow: 0 5px 20px;
+}
+
+header h1,
+section h2 {
+    font-family: "Poppins", sans-serif;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+header nav li  a{
+    color: black;
+    text-decoration: none;
+}
+
+header .container,
+section .container {              /* centralização dos titulos*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container img {
+    height: 360px;
+    margin: 12px 0;
+    margin-right: 32px;
+}
+
+.container div h2 p{
+    display: inline;
+    margin-left: 12px;
+}
+
+section div h2 {
+    margin-top: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2{
+    margin-bottom: 8px;
+}
+
+section div img {
+    height: 24px;
+}
+
+#logos img {
+    height: 100px;
+}
+
+/*Lista de produtos*/
+
+.container #list-produtc {
+    display: block;
+}
+
+form div {
+    display: inline-flex;
+}
+
+#list-produtc img  {
+    height: 140px;
+}
+
+#list-produtc li {
+    margin-left: 50px;
+}
+
+#list-produtc ul {
+    list-style: none;
+}
+
+/*fim da lista acima */
+
+.container #contact {
+    display: flex;
+}
+
+#loc,
+h3 {
+    display: block;
+    margin-inline-start: auto;
+    margin-top: 18px;
+}
+
+#loc img {
+    height: 50px;
+}
+
+.contact-methods {
+    display: flex;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin: 12px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+}
+
+form button {
+    background-color: rgb(244, 224, 8);
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+footer {
+    padding: 16px 0;
+    background-color: rgb(244, 224, 8);
+    color: black;
+}
